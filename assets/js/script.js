@@ -5,6 +5,14 @@ const possibleChoices = document.querySelectorAll('button.selection')
 let userChoice
 let computerChoice
 
+const endGame = () => {
+    if (incrementComputerScore === 10) {
+  
+      // changes result output background-colour for lose scenario
+      let element = document.querySelector(".results-section");
+      element.style.backgroundColor = "red";
+      resultDisplay.innerHTML = `Bad luck, the computer won ${incrementComputerScore} rounds. You lost the game!!! (The Game will restart shortly. Have another go!).`;
+    }
 // Increments Users Score
 function incrementScore() {
     let oldScore = parseInt(document.getElementById('result-score').innerText)
