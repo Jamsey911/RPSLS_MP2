@@ -12,9 +12,21 @@ body {
     text-align: center;
     width: 100%;
 }
+.top-section {
+    display: flex;
+    justify-content: space-around;
+}
+.scoreboard {
+    text-align: center;
+}
+.results-section {
+    width: 320px;
+    background-color: aliceblue;
+}
 #selections {
     display: flex;
     justify-content: space-around;
+    padding-top: 15px;
 }
 .selection {
     transition: 100ms;
