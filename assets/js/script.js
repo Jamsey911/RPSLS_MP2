@@ -5,15 +5,21 @@ const possibleChoices = document.querySelectorAll('button.selection')
 let userChoice
 let computerChoice
 
+if (incrementComputerScore === 5) {
+    // calls endGame function if computer score is 5
+    endGame();
+  }
+
 const endGame = () => {
     if (incrementComputerScore === 5) {
-  
-      // changes result output background-colour for lose scenario
-      let element = document.querySelector('.result-display');
-      element.style.backgroundColor = "red";
-      resultDisplay.innerHTML = `Bad luck, the computer won ${incrementComputerScore} rounds. You lost the game!!! (The Game will restart shortly. Have another go!).`;
-    }
-}
+    // clears icon images from gameplay area
+   let clear = document.querySelector('#selections');
+   clear.remove();
+   //resets game after 7 seconds once winner is declared
+setTimeout(function () {
+    location.reload();
+  }, 7000);
+}}
 
 // Increments Users Score
 function incrementScore() {
