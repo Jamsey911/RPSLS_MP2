@@ -5,14 +5,14 @@ const possibleChoices = document.querySelectorAll('button.selection')
 let userChoice
 let computerChoice
 
-const endGame = () => {
-    if (incrementComputerScore === 10) {
+// const endGame = () => {
+//     if (incrementComputerScore === 10) {
   
-      // changes result output background-colour for lose scenario
-      let element = document.querySelector(".results-section");
-      element.style.backgroundColor = "red";
-      resultDisplay.innerHTML = `Bad luck, the computer won ${incrementComputerScore} rounds. You lost the game!!! (The Game will restart shortly. Have another go!).`;
-    }
+//       // changes result output background-colour for lose scenario
+//       let element = document.querySelector(".results-section");
+//       element.style.backgroundColor = "red";
+//       resultDisplay.innerHTML = `Bad luck, the computer won ${incrementComputerScore} rounds. You lost the game!!! (The Game will restart shortly. Have another go!).`;
+//     }
 // Increments Users Score
 function incrementScore() {
     let oldScore = parseInt(document.getElementById('result-score').innerText)
@@ -26,30 +26,30 @@ function incrementComputerScore() {
 
 // Add Click function for Game Button Selections
 possibleChoices.forEach(possibleChoices => possibleChoices.addEventListener('click', (e) => {
-    userChoice = e.target.id
+    userChoice = e.target.innerText
     userChoiceDisplay.innerHTML = userChoice
     generateComputerChoice()
     getResult()
 }))
 
-// generate Computer Score
+// generate Computer Choice
 function generateComputerChoice() {
     const randomNumber = Math.floor(Math.random() * possibleChoices.length)
 
     if (randomNumber === 0) {
-        computerChoice = 'rock'
+        computerChoice = 'Rock👊'
     }
     if (randomNumber === 1) {
-        computerChoice = 'paper'
+        computerChoice = 'Paper📃'
     }
     if (randomNumber === 2) {
-        computerChoice = 'scissors'
+        computerChoice = 'Scissors✂️'
     }
     if (randomNumber === 3) {
-        computerChoice = 'lizard'
+        computerChoice = 'Lizard🦎'
     }
     if (randomNumber === 4) {
-        computerChoice = 'spock'
+        computerChoice = 'Spock🖖'
     }
     computerChoiceDisplay.innerHTML = computerChoice
 }
@@ -61,84 +61,84 @@ function getResult() {
         result = 'Its A Draw'
     }
     // Lose Funtion
-    if (computerChoice === 'rock' && userChoice === "scissors") {
+    if (computerChoice === 'Rock👊' && userChoice === "Scissors✂️") {
         result = 'You Lose!';
         incrementComputerScore();
     }
-    if (computerChoice === 'rock' && userChoice === "lizard") {
+    if (computerChoice === 'Rock👊' && userChoice === "Lizard🦎") {
         result = 'You Lose!';
         incrementComputerScore();
     }
-    if (computerChoice === 'paper' && userChoice === 'rock') {
+    if (computerChoice === 'Paper📃' && userChoice === 'Rock👊') {
         result = 'You Lose!';
         incrementComputerScore();
     }
-    if (computerChoice === 'paper' && userChoice === 'spock') {
+    if (computerChoice === 'Paper📃' && userChoice === 'Spock🖖') {
         result = 'You Lose!';
         incrementComputerScore();
     }
-    if (computerChoice === 'scissors' && userChoice === 'paper') {
+    if (computerChoice === 'Scissors✂️' && userChoice === 'Paper📃') {
         result = 'You Lose!';
         incrementComputerScore();
     }
-    if (computerChoice === 'scissors' && userChoice === 'lizard') {
+    if (computerChoice === 'Scissors✂️' && userChoice === 'Lizard🦎') {
         result = 'You Lose!';
         incrementComputerScore();
     }
-    if (computerChoice === 'lizard' && userChoice === 'paper') {
+    if (computerChoice === 'Lizard🦎' && userChoice === 'Paper📃') {
         result = 'You Lose!';
         incrementComputerScore();
     }
-    if (computerChoice === 'lizard' && userChoice === 'spock') {
+    if (computerChoice === 'Lizard🦎' && userChoice === 'Spock🖖') {
         result = 'You Lose!';
         incrementComputerScore();
     }
-    if (computerChoice === 'spock' && userChoice === 'scissors') {
+    if (computerChoice === 'Spock🖖' && userChoice === 'Scissors✂️') {
         result = 'You Lose!';
         incrementComputerScore();
     }
-    if (computerChoice === 'spock' && userChoice === 'rock') {
+    if (computerChoice === 'Spock🖖' && userChoice === 'Rock👊') {
         result = 'You Lose!';
         incrementComputerScore();
     }
     // Win Function
-    if (computerChoice === 'scissors' && userChoice === 'rock') {
+    if (computerChoice === 'Scissors✂️' && userChoice === 'Rock👊') {
         result = 'You Win!';
         incrementScore();
     }
-    if (computerChoice === 'lizard' && userChoice === 'rock') {
+    if (computerChoice === 'Lizard🦎' && userChoice === 'Rock👊') {
         result = 'You Win!';
         incrementScore();
     }
-    if (computerChoice === 'scissors' && userChoice === 'paper') {
+    if (computerChoice === 'Scissors✂️' && userChoice === 'Paper📃') {
         result = 'You Win!'
         incrementScore();
     }
-    if (computerChoice === 'spock' && userChoice === 'paper') {
+    if (computerChoice === 'Spock🖖' && userChoice === 'Paper📃') {
         result = 'You Win!'
         incrementScore();
     }
-    if (computerChoice === 'paper' && userChoice === 'scissors') {
+    if (computerChoice === 'Paper📃' && userChoice === 'Scissors✂️') {
         result = 'You Win!'
         incrementScore();
     }
-    if (computerChoice === 'lizard' && userChoice === 'scissors') {
+    if (computerChoice === 'Lizard🦎' && userChoice === 'Scissors✂️') {
         result = 'You Win!'
         incrementScore();
     }
-    if (computerChoice === 'paper' && userChoice === 'lizard') {
+    if (computerChoice === 'Paper📃' && userChoice === 'Lizard🦎') {
         result = 'You Win!';
         incrementScore();
     }
-    if (computerChoice === 'spock' && userChoice === 'lizard') {
+    if (computerChoice === 'Spock🖖' && userChoice === 'Lizard🦎') {
         result = 'You Win!';
         incrementScore();
     }
-    if (computerChoice === 'scissors' && userChoice === 'spock') {
+    if (computerChoice === 'Scissors✂️' && userChoice === 'Spock🖖') {
         result = 'You Win!';
         incrementScore();
     }
-    if (computerChoice === 'rock' && userChoice === 'spock') {
+    if (computerChoice === 'Rock👊' && userChoice === 'Spock🖖') {
         result = 'You Win!';
         incrementScore();
     }
