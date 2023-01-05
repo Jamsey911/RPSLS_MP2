@@ -1,27 +1,29 @@
 const computerChoiceDisplay = document.getElementById('computer-choice')
 const userChoiceDisplay = document.getElementById('user-choice')
 const resultDisplay = document.getElementById('result')
+const gameEndDisplay = document.getElementsByClassName('results-section');
 const possibleChoices = document.querySelectorAll('button.selection')
 let userChoice
 let computerChoice
 let userNewScore = 0;
 let compNewScore = 0;
 
+// funtion to calculate end game when 3 rounds has been won
 function bestOfThree() {
     if (userNewScore == 3) {
-        let clear = document.querySelector('#selections');
-        clear.remove();
         // resets game after 7 seconds once winner is declared
      setTimeout(function () {
          location.reload();
        }, 7000); 
+       
     } if (compNewScore == 3) {
-        let clear = document.querySelector('#selections');
-        clear.remove();
         //resets game after 7 seconds once winner is declared
      setTimeout(function () {
          location.reload();
        }, 7000);
+       let element = document.querySelector('.results-section');
+    element.style.backgroundColor = "red";
+    computerChoiceDisplay.innerHTML = `Bad luck, the computer won ${compNewScore} rounds. You lost the game!!! (The Game will restart shortly. Have another go!).`;
      }
 }
 
