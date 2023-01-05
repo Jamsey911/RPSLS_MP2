@@ -4,32 +4,36 @@ const resultDisplay = document.getElementById('result')
 const possibleChoices = document.querySelectorAll('button.selection')
 let userChoice
 let computerChoice
+let userNewScore = 0;
+let compNewScore = 0;
 
-if (incrementComputerScore === 5) {
-    // calls endGame function if computer score is 5
-    endGame();
-  }
-
-const endGame = () => {
-    if (incrementComputerScore === 5) {
-    // clears icon images from gameplay area
-   let clear = document.querySelector('#selections');
-   clear.remove();
-   //resets game after 7 seconds once winner is declared
-setTimeout(function () {
-    location.reload();
-  }, 7000);
-}}
+function bestOfThree() {
+    if (userNewScore == 3) {
+        let clear = document.querySelector('#selections');
+        clear.remove();
+        // resets game after 7 seconds once winner is declared
+     setTimeout(function () {
+         location.reload();
+       }, 7000); 
+    } if (compNewScore == 3) {
+        let clear = document.querySelector('#selections');
+        clear.remove();
+        //resets game after 7 seconds once winner is declared
+     setTimeout(function () {
+         location.reload();
+       }, 7000);
+     }
+}
 
 // Increments Users Score
 function incrementScore() {
-    let oldScore = parseInt(document.getElementById('result-score').innerText)
-    document.getElementById('result-score').innerText = ++oldScore
+    document.getElementById('result-score').innerText = ++userNewScore
+    console.log(userNewScore)
 }
 // Increments Computers Score
 function incrementComputerScore() {
-    let oldScore = parseInt(document.getElementById('computer-result-score').innerText)
-    document.getElementById('computer-result-score').innerText = ++oldScore
+    document.getElementById('computer-result-score').innerText = ++compNewScore
+    console.log(compNewScore)
 }
 
 // Add Click function for Game Button Selections
@@ -38,6 +42,7 @@ possibleChoices.forEach(possibleChoices => possibleChoices.addEventListener('cli
     userChoiceDisplay.innerHTML = userChoice
     generateComputerChoice()
     getResult()
+    bestOfThree()
 }))
 
 // generate Computer Choice
