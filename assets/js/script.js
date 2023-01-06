@@ -3,7 +3,6 @@ const userChoiceDisplay = document.getElementById('user-choice')
 const resultDisplay = document.getElementById('result')
 const gameEndDisplay = document.querySelector('results-section');
 const possibleChoices = document.querySelectorAll('button.selection')
-// const resultsArea = document.getElementsByClassName('results-section')
 let userChoice
 let computerChoice
 let userNewScore = 0;
@@ -17,18 +16,18 @@ function bestOfThree() {
      setTimeout(function () {
          location.reload();
        }, 7000); 
-    //    clear.remove();
           clear.style.backgroundColor = "green";
-          clear.innerHTML = ('`Well done, you won!  (The Game will restart shortly. Have another go!).`;')
+          clear.style.fontSize = '3rem';
+          clear.innerHTML = ('Well done, you won!  (The Game will restart shortly. Have another go!)')
        
     } if (compNewScore == 3) {
         //resets game after 7 seconds once winner is declared
      setTimeout(function () {
          location.reload();
        }, 7000);
-    //    clear.remove();
     clear.style.backgroundColor = "red";
-    clear.innerHTML = ('`Bad luck, you lost the game!!! (The Game will restart shortly. Have another go!).`;')
+    clear.style.fontSize = '3rem';
+    clear.innerHTML = ('Bad luck, you lost the game!!! (The Game will restart shortly. Have another go!)')
      }
 }
 
