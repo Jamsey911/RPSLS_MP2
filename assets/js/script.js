@@ -26,7 +26,7 @@ function bestOfThree() {
          location.reload();
        }, 7000);
     clear.style.backgroundColor = "red";
-    clear.style.fontSize = '3rem';
+    clear.style.fontSize = '2rem';
     clear.innerHTML = ('Bad luck, you lost the game!!! (The Game will restart shortly. Have another go!)')
      }
 }

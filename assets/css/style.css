@@ -16,12 +16,28 @@ body {
     display: flex;
     justify-content: space-around;
 }
+.rules {
+    border: 5px solid rgb(73, 73, 148);
+    padding: 30px;
+    margin: 5px;
+    text-decoration: underline;
+    background-color: silver;
+    border-radius: 5%;
+}
+.rules li{
+    list-style: none;
+    padding: 5px 0;
+}
+.rules h3 {
+    text-align: center;
+
+}
 .scoreboard {
     text-align: center;
+    font-size: 2em;
 }
 .results-section {
     width: 320px;
-    background-color: aliceblue;
 }
 #selections {
     display: flex;
