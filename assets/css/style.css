@@ -34,10 +34,12 @@ body {
     line-height: 1.5;
     font-size: 3em;
     text-decoration: underline;
+    text-decoration-thickness: 15%;
 }
 .rules p {
     padding-top: 10px;
     text-decoration: underline;
+    text-decoration-thickness: 15%;
 }
 .scoreboard {
     text-align: center;
@@ -51,6 +53,10 @@ body {
     justify-content: space-evenly;
     flex-direction: column;
     min-width: 280px;
+}
+.scoreboard > h2 {
+    text-decoration: underline;
+    text-decoration-thickness: 15%;
 }
 .scoreboard div {
     color: navy;
@@ -69,6 +75,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
+.results-section > h1 {
+    font-size: 3em;
+    text-decoration: underline;
+    text-decoration-thickness: 15%;
 }
 .results-section > h2 {
     color: navy
