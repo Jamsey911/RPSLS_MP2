@@ -12,6 +12,10 @@ let clear = document.querySelector("#selections");
 // funtion to calculate end game when 3 rounds has been won
 function bestOfThree() {
     if (userNewScore == 3) {
+        let win = new Audio(
+            "assets/audio/win.mp3"
+          );
+          win.play();
         // resets game after 7 seconds once winner is declared
      setTimeout(function () {
          location.reload();
@@ -24,6 +28,10 @@ function bestOfThree() {
           clear.innerHTML = ('Well done, you won!  (The Game will restart shortly. Have another go!)')
        
     } if (compNewScore == 3) {
+        let lose = new Audio(
+            "assets/audio/lose.mp3"
+          );
+          lose.play();
         // resets game after 7 seconds once winner is declared
      setTimeout(function () {
          location.reload();
