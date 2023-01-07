@@ -18,10 +18,11 @@ body {
 }
 .rules {
     border: 5px solid navy;
-    padding: 30px;
+    padding: 30px 10px 30px 30px;
     margin: 5px;
     background-color: silver;
     border-radius: 5%;
+    min-width: 250px;
 }
 .rules li{
     list-style:upper-roman;
@@ -43,17 +44,21 @@ body {
     text-align: center;
     font-size: 2em;
     border: 5px solid navy;
-    padding: 30px;
+    padding: 20px;
     margin: 5px;
     background-color: silver;
     border-radius: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    min-width: 280px;
 }
 .scoreboard div {
     color: navy;
     line-height: 1.6;
 }
 .results-section {
-    width: 320px;
+    min-width: 300px;
     text-align: center;
     font-size: 1em;
     border: 5px solid navy;
@@ -62,6 +67,9 @@ body {
     background-color: silver;
     border-radius: 5%;
     line-height: 1.4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 .results-section > h2 {
     color: navy
@@ -82,4 +90,41 @@ body {
 }
 .selection:hover {
     transform: scale(1.3);
+}
+footer {
+    text-align: center;
+    letter-spacing: 2px;
+    background-color: navy;
+    color: lightgrey;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+/* Media Queries Start Here */
+@media screen and (max-width: 950px) {
+    .top-section {
+        flex-wrap: wrap;
+    }
+    .rules {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #selections {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .selection {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .top-section {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
 }
