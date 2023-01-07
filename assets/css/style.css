@@ -26,30 +26,45 @@ body {
 .rules li{
     list-style:upper-roman;
     padding: 5px 0;
+    color: navy
 }
-/* .rules  {
-    color: #efa7a7;
-} */
 .rules h3 {
     text-align: center;
     line-height: 1.5;
     font-size: 26px;
     text-decoration: underline;
-    color: navy;
     padding-bottom: .5em;
-
 }
 .rules p {
     padding-top: 10px;
     text-decoration: underline;
-    color: navy;
 }
 .scoreboard {
     text-align: center;
     font-size: 2em;
+    border: 5px solid navy;
+    padding: 30px;
+    margin: 5px;
+    background-color: silver;
+    border-radius: 5%;
+}
+.scoreboard div {
+    color: navy;
+    line-height: 1.6;
 }
 .results-section {
     width: 320px;
+    text-align: center;
+    font-size: 1em;
+    border: 5px solid navy;
+    padding: 30px 10px;
+    margin: 5px;
+    background-color: silver;
+    border-radius: 5%;
+    line-height: 1.4;
+}
+.results-section > h2 {
+    color: navy
 }
 #selections {
     display: flex;
