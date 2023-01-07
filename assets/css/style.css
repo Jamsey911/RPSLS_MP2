@@ -18,7 +18,7 @@ body {
 }
 .rules {
     border: 5px solid navy;
-    padding: 30px 10px 30px 30px;
+    padding: 10px 10px 30px 30px;
     margin: 5px;
     background-color: silver;
     border-radius: 5%;
@@ -32,9 +32,8 @@ body {
 .rules h3 {
     text-align: center;
     line-height: 1.5;
-    font-size: 26px;
+    font-size: 3em;
     text-decoration: underline;
-    padding-bottom: .5em;
 }
 .rules p {
     padding-top: 10px;
