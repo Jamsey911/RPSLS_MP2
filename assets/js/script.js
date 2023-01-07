@@ -17,16 +17,22 @@ function bestOfThree() {
          location.reload();
        }, 7000); 
           clear.style.backgroundColor = "green";
-          clear.style.fontSize = '3rem';
+          clear.style.fontSize = '2rem';
+          clear.style.padding = '20px 0';
+          clear.style.margin = '20px 0';
+          clear.style.textAlign = 'center'
           clear.innerHTML = ('Well done, you won!  (The Game will restart shortly. Have another go!)')
        
     } if (compNewScore == 3) {
-        //resets game after 7 seconds once winner is declared
+        // resets game after 7 seconds once winner is declared
      setTimeout(function () {
          location.reload();
        }, 7000);
     clear.style.backgroundColor = "red";
     clear.style.fontSize = '2rem';
+    clear.style.padding = '20px 0';
+    clear.style.margin = '20px 0';
+    clear.style.textAlign = 'center'
     clear.innerHTML = ('Bad luck, you lost the game!!! (The Game will restart shortly. Have another go!)')
      }
 }
