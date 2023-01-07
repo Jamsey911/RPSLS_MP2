@@ -17,20 +17,32 @@ body {
     justify-content: space-around;
 }
 .rules {
-    border: 5px solid rgb(73, 73, 148);
+    border: 5px solid navy;
     padding: 30px;
     margin: 5px;
-    text-decoration: underline;
     background-color: silver;
     border-radius: 5%;
 }
 .rules li{
-    list-style: none;
+    list-style:upper-roman;
     padding: 5px 0;
 }
+/* .rules  {
+    color: #efa7a7;
+} */
 .rules h3 {
     text-align: center;
+    line-height: 1.5;
+    font-size: 26px;
+    text-decoration: underline;
+    color: navy;
+    padding-bottom: .5em;
 
+}
+.rules p {
+    padding-top: 10px;
+    text-decoration: underline;
+    color: navy;
 }
 .scoreboard {
     text-align: center;
