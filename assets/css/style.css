@@ -8,13 +8,20 @@ body {
     color: #293948;
 }
 .header {
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
     width: 100%;
+    padding: 5px 20px;
+    background-color: silver;
+    border-bottom: 5px solid navy;
+}
+.header-title { 
+    color: navy;
 }
 .top-section {
     display: flex;
     justify-content: space-around;
+    margin: 10px 0;
 }
 .rules {
     border: 5px solid navy;
