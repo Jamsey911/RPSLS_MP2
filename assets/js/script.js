@@ -143,7 +143,7 @@ function getResult() {
         result = 'You Win!';
         incrementScore();
     }
-    if (computerChoice === 'Scissors✂️' && userChoice === 'Paper📃') {
+    if (computerChoice === 'Rock👊' && userChoice === 'Paper📃') {
         result = 'You Win!'
         incrementScore();
     }
