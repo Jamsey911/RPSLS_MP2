@@ -96,4 +96,17 @@ San-serif was used as my backup.
 2. As the site owner, I want the site to be visuallly appealing
 3. As the site owner, I want all information to be present
 
----
+## WIREFRAMES
+
+For the site pages the wireframe preliminary layout designs can be seen below. These were created using [Balsamiq](https://balsamiq.com/):
+
+- Main Page
+
+![Wireframes](docs/wireframes/rpsls-wireframes.png)
+
+- 404 Page
+
+![Wireframe](docs/wireframes/rpsls-404-wireframe.png)
+
+
+
