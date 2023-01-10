@@ -16,35 +16,31 @@ let clear = document.querySelector("#selections");
  * funtion to calculate end game when 3 rounds has been won
  */
 function bestOfThree() {
-    if (userNewScore == 3) {
-        let win = new Audio(
-            "assets/audio/win.mp3"
-          );
-          win.play();
+  if (userNewScore == 3) {
+    let win = new Audio("assets/audio/win.mp3");
+    win.play();
         /**
          * resets game after 7 seconds once winner is declared
          */
-     setTimeout(function () {
-         location.reload();
-       }, 7000); 
-          clear.style.backgroundColor = "green";
-          clear.style.fontSize = '2rem';
-          clear.style.padding = '20px 0';
-          clear.style.margin = '20px 0';
-          clear.style.textAlign = 'center';
-          clear.innerHTML = ('Well done, you won!  (The Game will restart shortly. Have another go!)');
+    setTimeout(function () {
+    location.reload();
+    }, 7000); 
+    clear.style.backgroundColor = "green";
+    clear.style.fontSize = '2rem';
+    clear.style.padding = '20px 0';
+    clear.style.margin = '20px 0';
+    clear.style.textAlign = 'center';
+    clear.innerHTML = ('Well done, you won!  (The Game will restart shortly. Have another go!)');
        
-    } if (compNewScore == 3) {
-        let lose = new Audio(
-            "assets/audio/lose.mp3"
-          );
-          lose.play();
-        /**
-         * resets game after 7 seconds once winner is declared
-         */
-     setTimeout(function () {
-         location.reload();
-       }, 7000);
+  } if (compNewScore == 3) {
+    let lose = new Audio("assets/audio/lose.mp3");
+    lose.play();
+    /**
+     * resets game after 7 seconds once winner is declared
+     */
+  setTimeout(function () {
+    location.reload();
+    }, 7000);
     clear.style.backgroundColor = "red";
     clear.style.fontSize = '2rem';
     clear.style.padding = '20px 0';
@@ -63,41 +59,41 @@ function incrementScore() {
  * Increments Computers Score
  */
 function incrementComputerScore() {
-    document.getElementById('computer-result-score').innerText = ++compNewScore;
+  document.getElementById('computer-result-score').innerText = ++compNewScore;
 }
 
 /**
  * Add Click function for Game Button Selections
  */
 possibleChoices.forEach(possibleChoices => possibleChoices.addEventListener('click', (e) => {
-    userChoice = e.target.innerText;
-    userChoiceDisplay.innerHTML = userChoice;
-    generateComputerChoice();
-    getResult();
-    bestOfThree();
+  userChoice = e.target.innerText;
+  userChoiceDisplay.innerHTML = userChoice;
+  generateComputerChoice();
+  getResult();
+  bestOfThree();
 }));
 /**
  * Generate Computer Choice
  */
 function generateComputerChoice() {
-    const randomNumber = Math.floor(Math.random() * possibleChoices.length);
+  const randomNumber = Math.floor(Math.random() * possibleChoices.length);
 
-    if (randomNumber === 0) {
-        computerChoice = 'Rock👊';
-    }
-    if (randomNumber === 1) {
-        computerChoice = 'Paper📃';
-    }
-    if (randomNumber === 2) {
-        computerChoice = 'Scissors✂️';
-    }
-    if (randomNumber === 3) {
-        computerChoice = 'Lizard🦎';
-    }
-    if (randomNumber === 4) {
-        computerChoice = 'Spock🖖';
-    }
-    computerChoiceDisplay.innerHTML = computerChoice;
+  if (randomNumber === 0) {
+    computerChoice = 'Rock👊';
+  }
+  if (randomNumber === 1) {
+    computerChoice = 'Paper📃';
+  }
+  if (randomNumber === 2) {
+    computerChoice = 'Scissors✂️';
+  }
+  if (randomNumber === 3) {
+    computerChoice = 'Lizard🦎';
+  }
+  if (randomNumber === 4) {
+    computerChoice = 'Spock🖖';
+  }
+computerChoiceDisplay.innerHTML = computerChoice;
 }
 
 /**

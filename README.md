@@ -1,7 +1,7 @@
 # RPSLS Game!
 (Developer: James Lynch)
 
-![Mockup image](docs/am-i-responsive.JPG)
+![Mockup image](docs/am-i-repsonsive.png)
 
 [Live webpage](https://jamsey911.github.io/RPSLS_MP2/index.html)
 
@@ -32,13 +32,13 @@ The project idea has been created for the purpose to build an interactive front-
 
 - ## Header.
 
-![Header Bar](docs/features/header.df.JPG)
+![Header Bar](docs/features/df-header.png)
 
 This is a simple header displaying the title of the game. 
 
 - ## Footer.
 
-![Footer](docs/features/footer.df.JPG)
+![Footer](docs/features/df-footer.png)
 
 The footer has been designed to indicate to the user of where the icon's are that can be selected.
 
@@ -47,7 +47,7 @@ The footer has been designed to indicate to the user of where the icon's are tha
 
 -  ### Main Page.
 
-![Header Bar](docs/features/main-page.df.JPG)
+![Header Bar](docs/features/df-main-page.png)
 
 The main game area is displayed below the header. It has 4 elements, the Rules, Scoreboard, Results and the Selections. The Rules is displayed in the top left with an easy to read listed format. The Scoreboard is displayed centraly to give the user clear indication of the users score compared to the computers score. The Result section is displayed in the top right to give the user the display of the selections selected. And the Selections are displayed below in which these are the icons displayed for the user to select in order to interact with the game. 
 
@@ -55,17 +55,17 @@ The Selections screen has two alternatives when a game is completed in which the
 
 - ## WIN SCREEN
 
-![Win Screen](docs/features/win-screen.df.JPG)
+![Win Screen](docs/features/df-win-screen.png)
 
  - ## LOSE SCREEN
 
-![Lose Screen](docs/features/lose-screen.df.JPG)
+![Lose Screen](docs/features/df-lose-screen.png)
 
 
 - ## COLOUR PALETTE.
   The colour palette is purposefully simple and clean. It consists of the following six colour choices:
 
-![Color Palette](docs/features/color-palette.df.JPG)
+![Color Palette](docs/features/df-color-palette.JPG)
 
 <!-- These colours provide a high level of contrast for users with impaired vison, as confirmed in the testing section below. They also add to the overall goal of creating a clear, engaging and fun design ethos. The colors were chosen in conjunction with the background image to present a smooth, related connection across the application. This helps provide consistency to the overall aesthetic flow of the user experience.
 
