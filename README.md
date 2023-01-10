@@ -53,10 +53,16 @@ The main game area is displayed below the header. It has 4 elements, the Rules, 
 
 The Selections screen has two alternatives when a game is completed in which the selections are removed for a breif moment and replaced with a display based on the result of the game.A green display is created when the user wins and a red display when the user has lost.
 
-- ## **WIN SCREEN**
+- ## WIN SCREEN
 
 ![Win Screen](docs/features/win-screen.df.JPG)
 
- - ## **LOSE SCREEN**
+ - ## LOSE SCREEN
 
 ![Lose Screen](docs/features/lose-screen.df.JPG)
+
+
+- ## COLOUR PALETTE.
+  The colour palette is purposefully simple and clean. It consists of the following six colour choices:
+
+![Color Palette](docs/features/color-palette.df.JPG)
