@@ -49,6 +49,14 @@ The footer has been designed to indicate to the user of where the icon's are tha
 
 ![Header Bar](docs/features/main-page.df.JPG)
 
-Below the navbar is the main game play area. This has the scoreboard clearly defined at the top of the page and the player feedback section immediately below. The game icons are laid out beneath that and they are animated to clearly show the user which one they are engaging with. The rules and how to play the game are in the box below giving the user clear instructions on how to play. This is finished off with a clickable animated icon which enables the user to get in touch with feedback or suggestions. 
+The main game area is displayed below the header. It has 4 elements, the Rules, Scoreboard, Results and the Selections. The Rules is displayed in the top left with an easy to read listed format. The Scoreboard is displayed centraly to give the user clear indication of the users score compared to the computers score. The Result section is displayed in the top right to give the user the display of the selections selected. And the Selections are displayed below in which these are the icons displayed for the user to select in order to interact with the game. 
 
-There are two alternatives to the game screen when the game is either won or lost. The dialogue boxes are coloured appropriately depending on the scenario and the text is either celebratory or comiseratory.
+The Selections screen has two alternatives when a game is completed in which the selections are removed for a breif moment and replaced with a display based on the result of the game.A green display is created when the user wins and a red display when the user has lost.
+
+- ## **WIN SCREEN**
+
+![Win Screen](docs/features/win-screen.df.JPG)
+
+ - ## **LOSE SCREEN**
+
+![Lose Screen](docs/features/lose-screen.df.JPG)
