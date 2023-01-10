@@ -5,34 +5,30 @@
 
 [Live webpage](https://jamsey911.github.io/RPSLS_MP2/index.html)
 
+## Table of contents
+
+- <a href="#intro">Introduction</a>
+- <a href="#dg">Design Goals</a>
+- <a href="#df">Design Features</a>
+- <a href="#us">User Story</a>
+- <a href="#wire">Wireframes</a>
+- <a href="#test">Testing</a>
+- <a href="#dep">Deployment</a>
+- <a href="#pib">Previous Iterations and Bugs</a>
+- <a href="#fa">Future Aspirations</a>
+- <a href="#tools">Tools used and Coding Inspiration</a>
+
+<p ><a href="#home">Return to table of contents</a></p><p id="intro"></p>
+
 ## Table of Content
 
-1. [Project Goals](#project-goals)
-    1. [User Goals](#user-goals)
-    2. [Site Owner Goals](#site-owner-goals)
-2. [User Experience](#user-experience)
-    1. [Target Audience](#target-audience)
-    2. [User Requrements and Expectations](#user-requrements-and-expectations)
-    3. [User Stories](#user-stories)
-3. [Design](#design)
-    1. [Design Choices](#design-choices)
-    2. [Colour](#colours)
-    3. [Fonts](#fonts)
-    4. [Structure](#structure)
-    5. [Wireframes](#wireframes)
-4. [Technologies Used](#technologies-used)
-    1. [Languages](#languages)
-    2. [Frameworks & Tools](#frameworks-&-tools)
-5. [Features](#features)
+1. [Introduction](#introduction)
+2. [Design Goals](#design-goals)
+3. [Design Features](#design-features)
+4. [User Story](#user-utory)
+5. [Wireframes](#wireframes)
 6. [Testing](#validation)
-    1. [HTML Validation](#HTML-validation)
-    2. [CSS Validation](#CSS-validation)
-    3. [Accessibility](#accessibility)
-    4. [Performance](#performance)
-    5. [Device testing](#performing-tests-on-various-devices)
-    6. [Browser compatibility](#browser-compatability)
-    7. [Testing user stories](#testing-user-stories)
 8. [Bugs](#Bugs)
 9. [Deployment](#deployment)
 10. [Credits](#credits)
-11. [Acknowledgements](#acknowledgements)
+11. [Tools used and Coding Inspiration](#tools-used-and-coding-inspiration)
