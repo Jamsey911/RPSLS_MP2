@@ -4,7 +4,7 @@
 }
 body {
     background-color: #efa7a7;
-    font-family: "Raleway", sans-serif;
+    font-family: "Bakbak One", sans-serif;
     color: #293948;
 }
 .header {
@@ -104,6 +104,7 @@ body {
     height: 100px;
     font-size: 2em;
     margin: 5px;
+    font-family: "Bakbak One", sans-serif;
 }
 .selection:hover {
     transform: scale(1.3);
