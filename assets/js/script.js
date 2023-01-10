@@ -1,25 +1,29 @@
 /**
  * create game variables
  */
-const computerChoiceDisplay = document.getElementById('computer-choice')
-const userChoiceDisplay = document.getElementById('user-choice')
-const resultDisplay = document.getElementById('result')
-const gameEndDisplay = document.querySelector('results-section');
-const possibleChoices = document.querySelectorAll('button.selection')
-let userChoice
-let computerChoice
+const computerChoiceDisplay = document.getElementById('computer-choice');
+const userChoiceDisplay = document.getElementById('user-choice');
+const resultDisplay = document.getElementById('result');
+const possibleChoices = document.querySelectorAll('button.selection');
+let result = ('getResult()');
+let userChoice;
+let computerChoice;
 let userNewScore = 0;
 let compNewScore = 0;
 let clear = document.querySelector("#selections");
 
-// funtion to calculate end game when 3 rounds has been won
+/**
+ * funtion to calculate end game when 3 rounds has been won
+ */
 function bestOfThree() {
     if (userNewScore == 3) {
         let win = new Audio(
             "assets/audio/win.mp3"
           );
           win.play();
-        // resets game after 7 seconds once winner is declared
+        /**
+         * resets game after 7 seconds once winner is declared
+         */
      setTimeout(function () {
          location.reload();
        }, 7000); 
@@ -27,15 +31,17 @@ function bestOfThree() {
           clear.style.fontSize = '2rem';
           clear.style.padding = '20px 0';
           clear.style.margin = '20px 0';
-          clear.style.textAlign = 'center'
-          clear.innerHTML = ('Well done, you won!  (The Game will restart shortly. Have another go!)')
+          clear.style.textAlign = 'center';
+          clear.innerHTML = ('Well done, you won!  (The Game will restart shortly. Have another go!)');
        
     } if (compNewScore == 3) {
         let lose = new Audio(
             "assets/audio/lose.mp3"
           );
           lose.play();
-        // resets game after 7 seconds once winner is declared
+        /**
+         * resets game after 7 seconds once winner is declared
+         */
      setTimeout(function () {
          location.reload();
        }, 7000);
@@ -43,60 +49,70 @@ function bestOfThree() {
     clear.style.fontSize = '2rem';
     clear.style.padding = '20px 0';
     clear.style.margin = '20px 0';
-    clear.style.textAlign = 'center'
-    clear.innerHTML = ('Bad luck, you lost the game!!! (The Game will restart shortly. Have another go!)')
+    clear.style.textAlign = 'center';
+    clear.innerHTML = ('Bad luck, you lost the game!!! (The Game will restart shortly. Have another go!)');
      }
 }
-
-// Increments Users Score
+/**
+ * Increments Users Score
+ */
 function incrementScore() {
-    document.getElementById('result-score').innerText = ++userNewScore
-    console.log(userNewScore)
+  document.getElementById('result-score').innerText = ++userNewScore;
 }
-// Increments Computers Score
+/**
+ * Increments Computers Score
+ */
 function incrementComputerScore() {
-    document.getElementById('computer-result-score').innerText = ++compNewScore
-    console.log(compNewScore)
+    document.getElementById('computer-result-score').innerText = ++compNewScore;
 }
 
-// Add Click function for Game Button Selections
+/**
+ * Add Click function for Game Button Selections
+ */
 possibleChoices.forEach(possibleChoices => possibleChoices.addEventListener('click', (e) => {
-    userChoice = e.target.innerText
-    userChoiceDisplay.innerHTML = userChoice
-    generateComputerChoice()
-    getResult()
-    bestOfThree()
-}))
-
-// generate Computer Choice
+    userChoice = e.target.innerText;
+    userChoiceDisplay.innerHTML = userChoice;
+    generateComputerChoice();
+    getResult();
+    bestOfThree();
+}));
+/**
+ * Generate Computer Choice
+ */
 function generateComputerChoice() {
-    const randomNumber = Math.floor(Math.random() * possibleChoices.length)
+    const randomNumber = Math.floor(Math.random() * possibleChoices.length);
 
     if (randomNumber === 0) {
-        computerChoice = 'Rock👊'
+        computerChoice = 'Rock👊';
     }
     if (randomNumber === 1) {
-        computerChoice = 'Paper📃'
+        computerChoice = 'Paper📃';
     }
     if (randomNumber === 2) {
-        computerChoice = 'Scissors✂️'
+        computerChoice = 'Scissors✂️';
     }
     if (randomNumber === 3) {
-        computerChoice = 'Lizard🦎'
+        computerChoice = 'Lizard🦎';
     }
     if (randomNumber === 4) {
-        computerChoice = 'Spock🖖'
+        computerChoice = 'Spock🖖';
     }
-    computerChoiceDisplay.innerHTML = computerChoice
+    computerChoiceDisplay.innerHTML = computerChoice;
 }
 
-// Generate Result
+/**
+ * Generate Result
+ */
 function getResult() {
-    // Draw funtion
+    /**
+     * Draw funtion
+     */
     if (computerChoice === userChoice) {
-        result = 'Its A Draw'
+        result = 'Its A Draw';
     }
-    // Lose Funtion
+    /**
+     * Lose Funtion
+     */
     if (computerChoice === 'Rock👊' && userChoice === "Scissors✂️") {
         result = 'You Lose!';
         incrementComputerScore();
@@ -137,7 +153,9 @@ function getResult() {
         result = 'You Lose!';
         incrementComputerScore();
     }
-    // Win Function
+    /**
+     * Win Function
+     */
     if (computerChoice === 'Scissors✂️' && userChoice === 'Rock👊') {
         result = 'You Win!';
         incrementScore();
@@ -147,19 +165,19 @@ function getResult() {
         incrementScore();
     }
     if (computerChoice === 'Rock👊' && userChoice === 'Paper📃') {
-        result = 'You Win!'
+        result = 'You Win!';
         incrementScore();
     }
     if (computerChoice === 'Spock🖖' && userChoice === 'Paper📃') {
-        result = 'You Win!'
+        result = 'You Win!';
         incrementScore();
     }
     if (computerChoice === 'Paper📃' && userChoice === 'Scissors✂️') {
-        result = 'You Win!'
+        result = 'You Win!';
         incrementScore();
     }
     if (computerChoice === 'Lizard🦎' && userChoice === 'Scissors✂️') {
-        result = 'You Win!'
+        result = 'You Win!';
         incrementScore();
     }
     if (computerChoice === 'Paper📃' && userChoice === 'Lizard🦎') {
@@ -178,6 +196,5 @@ function getResult() {
         result = 'You Win!';
         incrementScore();
     }
-    resultDisplay.innerHTML = result
+    resultDisplay.innerHTML = result;
 }
-
