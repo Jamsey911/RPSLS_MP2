@@ -67,7 +67,7 @@ The Selections screen has two alternatives when a game is completed in which the
 
 ![Color Palette](docs/features/df-color-palette.JPG)
 
-<!-- These colours provide a high level of contrast for users with impaired vison, as confirmed in the testing section below. They also add to the overall goal of creating a clear, engaging and fun design ethos. The colors were chosen in conjunction with the background image to present a smooth, related connection across the application. This helps provide consistency to the overall aesthetic flow of the user experience.
+<!-- The colour sheme was chosen as a navy and grey/silver theme with a light pink backround in the body. This was also aided by adobe color in which a Complementary Color was selected. I feel the colour's contrast well to give the site a consistency aesthetic flow for a pleasing user experience.
 
 - ## Font.
   The font used for the page is Amatic SC. It is a simple but effective hand drawn webfont. It was initially designed by Vernon Adams, and concieved of to be used freely across the internet. It features both Latin and Hebrew alphabets. The Latin was initially designed by Vernon Adams. The Hebrew was designed by Ben Nathan, who also revised the Latin design. Thomas Jockin respaced and kerned the whole font. -->
