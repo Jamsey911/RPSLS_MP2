@@ -15,8 +15,10 @@
 6. [Testing](#testing)
 8. [Bugs](#bugs)
 9. [Deployment](#deployment)
-10. [Credits](#credits)
-11. [Tools used and Coding Inspiration](#tools-used-and-coding-inspiration)
+10. [Tools used](#tools-used)
+11. [Credits](#credits)
+12. [Acknowledgements](#acknowledgements)
+ 
 
 ## INTRODUCTION
 
@@ -339,6 +341,25 @@ You can clone the repository by following these steps:
 5. Type git clone and paste in URL that you copied ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
 6. Next click enter and you will have your local clone
 
+## TOOLS USED
+
+### Languages
+- HTML
+- CSS
+- Javascript
+
+### Frameworks & Tools
+- Favicon<span>.</span>io
+- Git
+- GitHub
+- Gitpod
+- Font Awesome
+- Snipping Tool
+- Balsamiq
+- Google Fonts
+- Adobe Color
+- Pixabay
+
 ## Credits
 
 ### Media
@@ -355,7 +376,7 @@ In order of apearance:
 - My README.md was based off the template illastrated by [Keith Millar's](https://github.com/GrumpyRobot21) in his project [Rock Paper Scissor Lizrd Spock](https://github.com/GrumpyRobot21/Rock-Paper-Scissors-Lizard-Spock---Portfolio-Project-2---JavaScript-Essentials/blob/main/assets/js/script.js)
 
 
-## Acknowledgements
+## ACKNOWLEDGEMENTS
 I would like to give a big thank you to:
 - My mentor Mo Shami for his feedback and helpful advice
 - My family and friends
