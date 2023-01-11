@@ -88,7 +88,6 @@ San-serif was used as my backup.
 1. As a returning user, I want a game that is replayable
 2. As a returnign user, I want to play a simple game of chance
 3. As a returning user, I want an easy to understand game interface
-4. As a returning user, I want a game that is interactive
 
 #### Site Owner
 1. As the site owner, I want users to find the site easy to use
@@ -174,22 +173,22 @@ The website was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Footer section | Navigate to website | Details showing how to play the game | Works as expected |
+| Footer section | Navigate to the footer | Details showing how to play the game | Works as expected |
+| Rules Section | Navigate to the home page  | Rules can be seen on the left  | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/">
+<img src="docs/user-story-testing/us-story-1.png">
 </details>
 
 2. As a first time user, I want the site to be visuallly appealing
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Results Section | Navigate to the home page | Results appear when selectios are chosen | Works as expected |
+| Results Section | Navigate to the home page | Results show current result | Works as expected |
 | Selections section | Navigate to the home page | See selections transform or be replaced when the user wins'/loses' | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/">
-<img src="docs/user-story-testing/">
+<img src="docs/user-story-testing/us-story-2.png">
 </details>
 
 3. As a first time user, I want all information to be present
@@ -199,7 +198,7 @@ The website was tested on the following browsers:
 | Home page | Navigate to the Home Page | Displayed on home page is all information needed | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/">
+<img src="docs/user-story-testing/us-story-3.png">
 </details>
 
 4. As a first time user, I want all rules to the game to be clearly indicated
@@ -209,8 +208,95 @@ The website was tested on the following browsers:
 | Rules Section | Navigate to the home page  | Rules can be seen on the left  | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/">
+<img src="docs/user-story-testing/us-story-4.png">
 </details>
+
+5. As a first time user, I want a game that is interactive
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Results Section | complete a game | Results appear when selectios are chosen | Works as expected |
+| Selections section | Win three games | See selections transform or be replaced when the user wins'/loses' | Works as expected |
+| Audio | Win three games | A audio file is played when user wins'/loses' three game | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/us-story-5.png">>
+</details>
+
+6. As a first time user, I want no confusion in regards to the exact landing page
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| 404 Error Page | Enter incorrect landing page | 404 image is shown  | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/us-story-6-404.JPG">
+</details>
+
+7. As a returning user, I want a game that is replayable
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Scoreboard | Win three games | Game automatically resets after a brief moment | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/us-story-7.png">
+</details>
+
+8. As a returnign user, I want to play a simple game of chance
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Game of chance | Interact with Seletions | Review result in Results section | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/us-story-8.png">
+</details>
+
+9. As a returning user, I want an easy to understand game interface
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Body section | Interact with game | All details visable | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/us-story-9.png">
+</details>
+
+10. As the site owner, I want users to find the site easy to use
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Results Section | Navigate to the home page | All site details are clearly visible | Works as expected |
+| Selections section | Navigate to the home page | See selections transform or be replaced when the user wins'/loses' | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/us-story-10.png">
+</details>
+
+11. As the site owner, I want the site to be visuallly appealing
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Home Page | Access website | Website laied out in an easy to read fashion | Works as expectd |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/us-story-11.png">
+
+</details>
+
+12. As the site owner, I want all information to be present
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Home page | Navigate to the home page  | All information is visible  | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/us-story-12.png">
+</details>
+
+
+
 
 
 
