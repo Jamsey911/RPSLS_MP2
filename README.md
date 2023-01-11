@@ -24,13 +24,13 @@
 
 ## INTRODUCTION
 
-This project was developed to showcase an evolved game of Rock Paper Scissors to incorporate two extra variables with the options of Lizard or Spock. This was made popular through the TV series, 'The Big Bang Theory'. This game creates a 1 v 1 againest the computer in a game of chance. To view the full website please use the clickable link via the heading at the top of this page or alternatively, click on the following link to access the site: [Rock Paper Scissors Lizard Spock](https://jamsey911.github.io/RPSLS_MP2/index.html)
+This project was developed to showcase an evolved game of Rock Paper Scissors to incorporate two extra variables with the options of Lizard or Spock. This was made popular through the TV series, 'The Big Bang Theory'. This game creates a 1 v 1 against the computer in a game of chance. To view the full website please use the clickable link via the heading at the top of this page or alternatively, click on the following link to access the site: [Rock Paper Scissors Lizard Spock](https://jamsey911.github.io/RPSLS_MP2/index.html)
 
 ### [Return to Table of Content](#table-of-content)
 
 ## DESIGN GOALS
 
-The project idea has been created for the purpose to build an interactive front-end site that should respond to the users' when they interact with the data presented. This site should allow users to actively engage and change the way the information is displayed to achieve an end goal.
+The project idea has been created for the purpose to build an interactive front-end site that should respond to the user when they interact with the data presented. This site should allow users to actively engage and change the way the information is displayed to achieve an end goal.
 
 ### [Return to Table of Content](#table-of-content)
 
@@ -44,7 +44,7 @@ The project idea has been created for the purpose to build an interactive front-
 ![Header Bar](docs/features/df-header.png)
 
 - This is a simple header displaying the title of the game.
-- User stories covered: 6, 11
+- User stories covered: 6, 12
 
 ### FOOTER
 
@@ -62,26 +62,26 @@ The main game area is displayed below the header. It has 4 elements, the Rules, 
 The Selections screen has two alternatives when a game is completed in which the selections are removed for a breif moment and replaced with a display based on the result of the game.A green display is created when the user wins and a red display when the user has lost.
 
 ### RULES SECTION
-- The Rules section contains all rules user needs to know in how to play the game.
+- The Rules section contains all rules  the user needs to know in how to play the game.
 - User stories covered: 1, 3, 4, 11, 12
 
 ![Rules Section](docs/features/df-rules.png)
 
 ### SCOREBOARD SECTION
 - The Scoreboard section contains the users and computers incremented scoing figures in an easy to read fashion
-- User stories covered: 3, 4, 7, 9, 11, 12
+- User stories covered: 3, 5, 7, 9, 11, 12
 
 ![Scoreboard Section](docs/features/df-scoreboard.png)
 
 ### RESULTS SECTION
-- The Results section shows the user's and the computers recent selection along with a confirmed result. 
+- The Results section shows the users and the computers recent selection along with a confirmed result. 
 - User stories covered: 2, 3, 5, 8, 9, 10, 11, 12
 
 ![Results Section](docs/features/df-result.png)
 
 ### SELECTIONS SECTION
 - The Selections section consists of 5 button's for the user to choose to interact with website. 
-- User stories covered: 2, 8, 11, 12
+- User stories covered: 2, 8, 10, 11, 12
 
 ![Selections Section](docs/features/df-selections.png)
 
