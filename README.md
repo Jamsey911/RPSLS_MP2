@@ -77,16 +77,15 @@ San-serif was used as my backup.
 ## USER STORY
 
 #### First-time User
-1. As a first time user, I want to have easy access to the site
-2. As a first time user, I want to find the site easy to use
-3. As a first time user, I want the site to be visuallly appealing
-4. As a first time user, I want all information to be present
-5. As a first time user, I want all rules to the game to be clearly indicated
-6. As a first time user, I want a game that is interactive
-7. As a first time user, I want no confusion in regards to the exact landing page
+1. As a first time user, I want to find the site easy to use
+2. As a first time user, I want the site to be visuallly appealing
+3. As a first time user, I want all information to be present
+4. As a first time user, I want all rules to the game to be clearly indicated
+5. As a first time user, I want a game that is interactive
+6. As a first time user, I want no confusion in regards to the exact landing page
 
 #### Returning User
-1. As a returning user, I want replayability
+1. As a returning user, I want a game that is replayable
 2. As a returnign user, I want to play a simple game of chance
 3. As a returning user, I want an easy to understand game interface
 4. As a returning user, I want a game that is interactive
@@ -112,7 +111,7 @@ For the site pages the wireframe preliminary layout designs can be seen below. T
 
 ### HTML Validation
 The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors or warnings.
-<details><summary>Home</summary>
+<details><summary>Index</summary>
 <img src="docs/validation/val-html.JPG">
 </details>
 <!-- <details><summary>404</summary>
@@ -122,7 +121,7 @@ The W3C Markup Validation Service was used to validate the HTML of the website. 
 ### CSS Validation
 The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
 All pages pass with no errors or warnings.
-<details><summary>whole page</summary>
+<details><summary>Index</summary>
 <img src="docs/validation/val-css.JPG">
 </details>
 <!-- <details><summary>404</summary>
@@ -131,7 +130,7 @@ All pages pass with no errors or warnings.
 
 ### Accessibility
 The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with 0 errors.
-<details><summary>Home</summary>
+<details><summary>Index</summary>
 <img src="docs/validation/val-accessibility.png">
 </details>
 <!-- <details><summary>404</summary>
@@ -141,7 +140,7 @@ The WAVE WebAIM web accessibility evaluation tool was used to ensure the website
 ### Performance 
 Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. 
 
-<details><summary>Home</summary>
+<details><summary>Index</summary>
 <img src="docs/validation/val-lighthouse.png">
 </details>
 <!-- <details><summary>404</summary>
@@ -151,8 +150,66 @@ Google Lighthouse in Google Chrome Developer Tools was used to test the performa
 ### Javascript Validation
 [JS Hint](https://jshint.com/) was used to detect errors and potential problems in the JavaScript code.
 
-<details><summary>Home</summary>
+<details><summary>Javascript Testing</summary>
 <img src="docs/validation/val-js.JPG">
+</details>
+
+### Performing tests on various devices 
+The website was tested on the following devices:
+- HP Pavilion laptop
+- Samsung S21+
+- Ipad (8th Generation)
+
+In addition, the website was tested using Google Chrome Developer Tools Device Toggeling option for all available device options.
+
+### Browser compatability
+The website was tested on the following browsers:
+- Google Chrome
+- Microsoft Egde
+- Apple Safari
+
+### Testing user stories
+
+1. As a first time user, I want to find the site easy to use
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer section | Navigate to website | Details showing how to play the game | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/">
+</details>
+
+2. As a first time user, I want the site to be visuallly appealing
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Results Section | Navigate to the home page | Results appear when selectios are chosen | Works as expected |
+| Selections section | Navigate to the home page | See selections transform or be replaced when the user wins'/loses' | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/">
+<img src="docs/user-story-testing/">
+</details>
+
+3. As a first time user, I want all information to be present
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Home page | Navigate to the Home Page | Displayed on home page is all information needed | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/">
+</details>
+
+4. As a first time user, I want all rules to the game to be clearly indicated
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Rules Section | Navigate to the home page  | Rules can be seen on the left  | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/">
 </details>
 
 
