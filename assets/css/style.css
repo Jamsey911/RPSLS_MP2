@@ -9,6 +9,7 @@ body {
     font-family: "Bakbak One", sans-serif;
     color: #293948;
 }
+/* Header logo */
 .header {
     font-size: 1.5em;
     text-align: center;
@@ -19,11 +20,12 @@ body {
 .header-title { 
     color: navy;
 }
+/* The top-section represents the Rules, Scoreboard and Results' section's*/
 .top-section {
     display: flex;
     justify-content: space-around;
     margin: 10px 0;
-}
+}/* Rules section and child elements below*/
 .rules {
     border: 5px solid navy;
     padding: 10px 10px 30px 30px;
@@ -49,6 +51,7 @@ body {
     text-decoration: underline;
     text-decoration-thickness: 15%;
 }
+/*Scoreboard section and child elements below*/
 .scoreboard {
     text-align: center;
     font-size: 2em;
@@ -70,6 +73,7 @@ body {
     color: navy;
     line-height: 1.6;
 }
+/*Results section and child elements below*/
 .results-section {
     min-width: 280px;
     text-align: center;
@@ -92,6 +96,7 @@ body {
 .results-section > h2 {
     color: navy
 }
+/*Selections section and child elements below*/
 #selections {
     display: flex;
     justify-content: space-around;
@@ -112,6 +117,7 @@ body {
     transform: scale(1.3);
     cursor: pointer;
 }
+/*Footer section below*/
 footer {
     text-align: center;
     letter-spacing: 2px;
@@ -120,6 +126,7 @@ footer {
     padding: 20px 0;
     margin-top: 20px;
 }
+/*404 page below*/
 .error-img {
     width: 100%;
     height: 100%;
@@ -133,11 +140,10 @@ footer {
     justify-content: center;
     margin-top: 30px;
 }
+/* Return to home button in 404 page*/
 .return-outer {
     margin: 10px;
 }
-
-/* 404 image section */
 
 
 /* Media Queries Start Here */

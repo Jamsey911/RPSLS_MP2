@@ -8,16 +8,21 @@
     <meta name="keywords" content="Rock, Paper, Scissors, Lizard, Spock, Game, games">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>RPSLS Game!</title>
+    <!-- Favicon logo below -->
     <link rel="icon" href="assets/images/favicon-logo.png" type="image/x-icon">
 </head>
 <body>
+    <!-- Header below showing name of the game -->
     <div class="header">
         <h1 class="header-title">Rock-Paper-Scissors-Lizard-Spock Game!</h1>
     </div>
+    <!-- The top-section represents the Rules, Scoreboard and Results' section's -->
     <div class="top-section">
+        <!-- Rules Section starts below -->
         <div class="rules-section">
-        <div class="rules">
-            <h2>Rules</h2>
+            <!-- Listed rules for the game are below -->
+            <div class="rules">
+                <h2>Rules</h2>
                 <ul>
                     <li>Rock destroys scissors and lizard!</li>
                     <li>Paper annihilates rock and spock!!</li>
@@ -28,6 +33,7 @@
                 <p>Winner of game is decided by the best of three rounds.</p>
             </div>
         </div>
+        <!-- Scoreboard section starts below -->
         <div class="scoreboard" >
             <h2>Scoreboard</h2>
             <div>
@@ -39,14 +45,18 @@
                 <span id="computer-result-score">0</span>
             </div>
         </div>
+        <!-- Results Section Starts here -->
         <div class="results-section">
             <h1>Result</h1>
+            <!-- The users and the computers current selection along with a confirmed result are below -->
             <h2 class="user-result">Your choice:<br> <span id="user-choice"></span></h2>
             <h2 class=" computer-result">Comp choice:<br> <span id="computer-choice"></span></h2>
             <h2 class="result-display">Result: <span id="result"></span></h2>
         </div>
     </div>
+    <!-- Start of the selections section -->
     <div>
+        <!-- Five selections below for the user to interact with are below -->
         <div id ="selections">
             <button class="selection" id="rock" >Rock👊</button>
             <button class="selection" id ="paper" >Paper📃</button>
@@ -55,9 +65,11 @@
             <button class="selection" id ="spock" >Spock🖖</button>
         </div>
     </div>
+    <!-- Footer section showing how to interact with game are below -->
     <footer>
         <h2>Click on an icon above of your choice and see if you can beat the computer.</h2>
     </footer>
+    <!-- Script link index to Javascript file below -->
     <script src="assets/js/script.js"></script>
 </body>
 </html>
