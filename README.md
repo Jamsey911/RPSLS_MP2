@@ -32,20 +32,22 @@ The project idea has been created for the purpose to build an interactive front-
 
 ## DESIGN FEATURES
 
+### PAGE DESIGN
+  The page design has been specifically created to portray a clean, fun and engaging experience for the user. The page content is presented in a clear and accessible fashion for the user to understand.
+
 ### HEADER
 
 ![Header Bar](docs/features/df-header.png)
 
-This is a simple header displaying the title of the game. 
+- This is a simple header displaying the title of the game.
+- User stories covered: 6, 11
 
 ### FOOTER
 
 ![Footer](docs/features/df-footer.png)
 
-The footer has been designed to indicate to the user of where the icon's are that can be selected.
-
-### PAGE DESIGN
-  The page design has been specifically created to portray a clean, fun and engaging experience for the user. The page content is presented in a clear and accessible fashion for the user to understand.
+- The footer has been designed to indicate to the user of where the icon's are that can be selected.
+- User stories covered: 1, 3, 12
 
 ### MAIN GAME AREA
 
@@ -56,28 +58,46 @@ The main game area is displayed below the header. It has 4 elements, the Rules, 
 The Selections screen has two alternatives when a game is completed in which the selections are removed for a breif moment and replaced with a display based on the result of the game.A green display is created when the user wins and a red display when the user has lost.
 
 ### RULES SECTION
+- The Rules section contains all rules user needs to know in how to play the game.
+- User stories covered: 1, 3, 4, 11, 12
 
 ![Rules Section](docs/features/df-rules.png)
 
 ### SCOREBOARD SECTION
+- The Scoreboard section contains the users and computers incremented scoing figures in an easy to read fashion
+- User stories covered: 3, 4, 7, 9, 11, 12
 
 ![Scoreboard Section](docs/features/df-scoreboard.png)
 
 ### RESULTS SECTION
+- The Results section shows the user's and the computers recent selection along with a confirmed result. 
+- User stories covered: 2, 3, 5, 8, 9, 10, 11, 12
 
 ![Results Section](docs/features/df-result.png)
 
 ### SELECTIONS SECTION
+- The Selections section consists of 5 button's for the user to choose to interact with website. 
+- User stories covered: 2, 8, 11, 12
 
 ![Selections Section](docs/features/df-selections.png)
 
 ### WIN SCREEN
+- The Win Screen appears when the user wins three games along with an audio que to signal the end of the game.
+- User stories covered: 5
 
 ![Win Screen](docs/features/df-win-screen.png)
 
 ### LOSE SCREEN
+- The Lose Screen appears when the user loses three games along with an audio que to signal the end of the game.
+- User stories covered: 5
 
 ![Lose Screen](docs/features/df-lose-screen.png)
+
+### 404 PAGE
+- A custom 404 page takes away the confusion of not landing on the page they had intended to land on.
+- User stories covered: 6
+
+![404 Page](docs/features/df-404-page.JPG)
 
 
 ### COLOUR PALETTE
@@ -364,7 +384,6 @@ You can clone the repository by following these steps:
 
 ### Media
 In order of apearance:
-Win Audion: Eponn Src:https://pixabay.com/sound-effects/correct-6033/
 - [lose.mp3](assets/audio/lose.mp3): Audio by <a href="https://pixabay.com/sound-effects/negative-beeps-6008/">themusicalnomad</a> on <a href="https://pixabay.com/">Pixabay</a>
 - [win.mp3](assets/images/win.mp3): Audio by <a href="https://pixabay.com/sound-effects/correct-6033/">Eponn </a> on <a href="https://pixabay.com/">Pixabay</a>
 - [404 error image](assets/images/404img.jpg): Image by <a href="https://www.freepik.com/author/pikisuperstar">pikisuperstar</a> on <a href="https://www.freepik.com/free-vector/error-404-concept-landing-page_5060705.htm#query=404&position=8&from_view=search&track=sph%22%3EImage%20by%20pikisuperstar%3C/a%3E%20on%20Freepik">Freepix</a> 
