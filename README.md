@@ -388,7 +388,6 @@ You can clone the repository by following these steps:
 - Git
 - GitHub
 - Gitpod
-- Font Awesome
 - Snipping Tool
 - Balsamiq
 - Google Fonts
