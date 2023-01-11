@@ -401,9 +401,11 @@ You can clone the repository by following these steps:
 
 ### Media
 In order of apearance:
+- All Emoji's were copied from the site <a href="https://getemoji.com/">getemoji.com</a>
 - [lose.mp3](assets/audio/lose.mp3): Audio by <a href="https://pixabay.com/sound-effects/negative-beeps-6008/">themusicalnomad</a> on <a href="https://pixabay.com/">Pixabay</a>
 - [win.mp3](assets/images/win.mp3): Audio by <a href="https://pixabay.com/sound-effects/correct-6033/">Eponn </a> on <a href="https://pixabay.com/">Pixabay</a>
 - [404 error image](assets/images/404img.jpg): Image by <a href="https://www.freepik.com/author/pikisuperstar">pikisuperstar</a> on <a href="https://www.freepik.com/free-vector/error-404-concept-landing-page_5060705.htm#query=404&position=8&from_view=search&track=sph%22%3EImage%20by%20pikisuperstar%3C/a%3E%20on%20Freepik">Freepix</a> 
+
 
   
 ### Code

@@ -1,3 +1,4 @@
+/*url import to connect font*/
 @import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
  
 * {
@@ -169,7 +170,6 @@ footer {
         width: 300px;
     }
 }
-
 @media only screen and (max-width: 622px) {
     .top-section {
         display: flex;
