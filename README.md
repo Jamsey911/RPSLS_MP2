@@ -113,9 +113,9 @@ The W3C Markup Validation Service was used to validate the HTML of the website. 
 <details><summary>Index</summary>
 <img src="docs/validation/val-html.JPG">
 </details>
-<!-- <details><summary>404</summary>
-<img src="docs/validation/val-html-404.JPG">
-</details> -->
+<details><summary>404</summary>
+<img src="docs/validation/val-html-404.png">
+</details>
 
 ### CSS Validation
 The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
@@ -123,18 +123,18 @@ All pages pass with no errors or warnings.
 <details><summary>Index</summary>
 <img src="docs/validation/val-css.JPG">
 </details>
-<!-- <details><summary>404</summary>
-<img src="docs/validation/val-css-404.JPG">
-</details> -->
+<details><summary>404</summary>
+<img src="docs/validation/val-css-404.png">
+</details>
 
 ### Accessibility
 The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with 0 errors.
 <details><summary>Index</summary>
 <img src="docs/validation/val-accessibility.png">
 </details>
-<!-- <details><summary>404</summary>
-<img src="docs/validation/access-404.JPG">
-</details> -->
+<details><summary>404</summary>
+<img src="docs/validation/val-accessibility-404.png">
+</details>
 
 ### Performance 
 Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. 
@@ -142,9 +142,6 @@ Google Lighthouse in Google Chrome Developer Tools was used to test the performa
 <details><summary>Index</summary>
 <img src="docs/validation/val-lighthouse.png">
 </details>
-<!-- <details><summary>404</summary>
-<img src="docs/validation/light-404.JPG">
-</details> -->
 
 ### Javascript Validation
 [JS Hint](https://jshint.com/) was used to detect errors and potential problems in the JavaScript code.
