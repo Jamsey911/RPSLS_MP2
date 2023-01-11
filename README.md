@@ -314,11 +314,11 @@ The website was tested on the following browsers:
 
 | **Bug** | **Fix** |
 | ----------- | ----------- |
-| Results function not displaying correct result  | Changed getResult function in Javascript |
-| Scoreboard not incrementing | Corrected  incrementScore function in Javascript  |
+| Results function not displaying correct result | Changed getResult function in Javascript |
+| Scoreboard not incrementing | Corrected  incrementScore function in Javascript |
 | Screen width not displaying correcty with media queries | Edited header element in CSS|
 | bestOfThree funtion not displaying Win/Lose page | Declared the user and computers score in javascript |
-| Bookings form overflowing on smaller size screens | Made Media query that changed the direction with flex so details can be legible   |
+| Selections incorrectly displayed | Made Media query change to the size of selection |
 
 ## Deployment
 This website was created and deployed through GitHub Pages by following these steps:
@@ -338,6 +338,28 @@ You can clone the repository by following these steps:
 4. Open Git Bash and edit the current working directory to the one where you want the copied directory
 5. Type git clone and paste in URL that you copied ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
 6. Next click enter and you will have your local clone
+
+## Credits
+
+### Media
+In order of apearance:
+Win Audion: Eponn Src:https://pixabay.com/sound-effects/correct-6033/
+- [lose.mp3](assets/audio/lose.mp3): Audio by <a href="https://pixabay.com/sound-effects/negative-beeps-6008/">themusicalnomad</a> on <a href="https://pixabay.com/">Pixabay</a>
+- [win.mp3](assets/images/win.mp3): Audio by <a href="https://pixabay.com/sound-effects/correct-6033/">Eponn </a> on <a href="https://pixabay.com/">Pixabay</a>
+- [404 error image](assets/images/404img.jpg): Image by <a href="https://www.freepik.com/author/pikisuperstar">pikisuperstar</a> on <a href="https://www.freepik.com/free-vector/error-404-concept-landing-page_5060705.htm#query=404&position=8&from_view=search&track=sph%22%3EImage%20by%20pikisuperstar%3C/a%3E%20on%20Freepik">Freepix</a> 
+
+  
+### Code
+In order of apearance:
+- The initial Javascript derived from the teachings of [Ania Kubow](https://www.youtube.com/@AniaKubow) in her video [3 ways to code Rock Paper Scissors in JavaScript](https://www.youtube.com/watch?v=RwFeg0cEZvQ)
+- My README.md was based off the template illastrated by [Keith Millar's](https://github.com/GrumpyRobot21) in his project [Rock Paper Scissor Lizrd Spock](https://github.com/GrumpyRobot21/Rock-Paper-Scissors-Lizard-Spock---Portfolio-Project-2---JavaScript-Essentials/blob/main/assets/js/script.js)
+
+
+## Acknowledgements
+I would like to give a big thank you to:
+- My mentor Mo Shami for his feedback and helpful advice
+- My family and friends
+- To Code Institute for their helpful and informative guidance
 
 
 
