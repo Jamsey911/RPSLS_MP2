@@ -12,8 +12,8 @@
 3. [Design Features](#design-features)
 4. [User Story](#user-story)
 5. [Wireframes](#wireframes)
-6. [Testing](#validation)
-8. [Bugs](#Bugs)
+6. [Testing](#testing)
+8. [Bugs](#bugs)
 9. [Deployment](#deployment)
 10. [Credits](#credits)
 11. [Tools used and Coding Inspiration](#tools-used-and-coding-inspiration)
@@ -309,6 +309,37 @@ The website was tested on the following browsers:
 <details><summary>Screenshots</summary>
 <img src="docs/user-story-testing/us-story-12.png">
 </details>
+
+## BUGS
+
+| **Bug** | **Fix** |
+| ----------- | ----------- |
+| Results function not displaying correct result  | Changed getResult function in Javascript |
+| Scoreboard not incrementing | Corrected  incrementScore function in Javascript  |
+| Screen width not displaying correcty with media queries | Edited header element in CSS|
+| bestOfThree funtion not displaying Win/Lose page | Declared the user and computers score in javascript |
+| Bookings form overflowing on smaller size screens | Made Media query that changed the direction with flex so details can be legible   |
+
+## Deployment
+This website was created and deployed through GitHub Pages by following these steps:
+1. Oepn Github repository and select the settings tab
+2. Select pages on the left hand side
+3. Select source and the option for Branch: master
+4. The webpage refreshes automaticaly (You may need to refresh again yourself) you should see a prompt saying: "Your site is published at https://jamsey911.github.io/RPSLS_MP2/index.html"
+
+You can for fork the repository by following these steps:
+1. From the GitHub repository
+2. Click the Fork button on the upper right hand corner
+
+You can clone the repository by following these steps:
+1. From the GitHub repository 
+2. Select the Code button on top of the list of files
+3. Choose your prefeared option to clone HTTPS, SSH, or Github CLI. Select the copy button to copy the URL to your clipboard
+4. Open Git Bash and edit the current working directory to the one where you want the copied directory
+5. Type git clone and paste in URL that you copied ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+6. Next click enter and you will have your local clone
+
+
 
 
 
