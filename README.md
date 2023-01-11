@@ -5,6 +5,8 @@
 
 [Live webpage](https://jamsey911.github.io/RPSLS_MP2/index.html)
 
+## Milestone Portfolio Project 2 - JavaScript Essentials - Code Institute Full Stack Developer Diploma.
+
 ## Table of Content
 
 1. [Introduction](#introduction)
@@ -24,11 +26,13 @@
 
 This project was developed to showcase an evolved game of Rock Paper Scissors to incorporate two extra variables with the options of Lizard or Spock. This was made popular through the TV series, 'The Big Bang Theory'. This game creates a 1 v 1 againest the computer in a game of chance. To view the full website please use the clickable link via the heading at the top of this page or alternatively, click on the following link to access the site: [Rock Paper Scissors Lizard Spock](https://jamsey911.github.io/RPSLS_MP2/index.html)
 
-<!-- <p ><a href="#home">Return to table of contents</a></p><p id="intro"></p> -->
+### [Return to Table of Content](#table-of-content)
 
 ## DESIGN GOALS
 
 The project idea has been created for the purpose to build an interactive front-end site that should respond to the users' when they interact with the data presented. This site should allow users to actively engage and change the way the information is displayed to achieve an end goal.
+
+### [Return to Table of Content](#table-of-content)
 
 ## DESIGN FEATURES
 
@@ -111,6 +115,7 @@ The colour sheme was chosen as a navy and grey/silver theme with a light pink ba
 Bakbak One is the font usedn for the site. I feel it has an appealing look thats complements all elements of the page. I think this font stands out well while not being too aggressive.
 San-serif was used as my backup.
 
+### [Return to Table of Content](#table-of-content)
 
 ## USER STORY
 
@@ -132,6 +137,8 @@ San-serif was used as my backup.
 2. As the site owner, I want the site to be visuallly appealing
 3. As the site owner, I want all information to be present
 
+### [Return to Table of Content](#table-of-content)
+
 ## WIREFRAMES
 
 For the site pages the wireframe preliminary layout designs can be seen below. These were created using [Balsamiq](https://balsamiq.com/):
@@ -143,6 +150,8 @@ For the site pages the wireframe preliminary layout designs can be seen below. T
 - 404 Page
 
 ![Wireframe](docs/wireframes/rpsls-404-wireframe.png)
+
+### [Return to Table of Content](#table-of-content)
 
 ## TESTING
 
@@ -332,6 +341,8 @@ The website was tested on the following browsers:
 <img src="docs/user-story-testing/us-story-12.png">
 </details>
 
+### [Return to Table of Content](#table-of-content)
+
 ## BUGS
 
 | **Bug** | **Fix** |
@@ -341,6 +352,8 @@ The website was tested on the following browsers:
 | Screen width not displaying correcty with media queries | Edited header element in CSS|
 | bestOfThree funtion not displaying Win/Lose page | Declared the user and computers score in javascript |
 | Selections incorrectly displayed | Made Media query change to the size of selection |
+
+### [Return to Table of Content](#table-of-content)
 
 ## Deployment
 This website was created and deployed through GitHub Pages by following these steps:
@@ -361,6 +374,8 @@ You can clone the repository by following these steps:
 5. Type git clone and paste in URL that you copied ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
 6. Next click enter and you will have your local clone
 
+### [Return to Table of Content](#table-of-content)
+
 ## TOOLS USED
 
 ### Languages
@@ -380,6 +395,8 @@ You can clone the repository by following these steps:
 - Adobe Color
 - Pixabay
 
+### [Return to Table of Content](#table-of-content)
+
 ## Credits
 
 ### Media
@@ -394,12 +411,16 @@ In order of apearance:
 - The initial Javascript derived from the teachings of [Ania Kubow](https://www.youtube.com/@AniaKubow) in her video [3 ways to code Rock Paper Scissors in JavaScript](https://www.youtube.com/watch?v=RwFeg0cEZvQ)
 - My README.md was based off the template illastrated by [Keith Millar's](https://github.com/GrumpyRobot21) in his project [Rock Paper Scissor Lizrd Spock](https://github.com/GrumpyRobot21/Rock-Paper-Scissors-Lizard-Spock---Portfolio-Project-2---JavaScript-Essentials/blob/main/assets/js/script.js)
 
+### [Return to Table of Content](#table-of-content)
+
 
 ## ACKNOWLEDGEMENTS
 I would like to give a big thank you to:
 - My mentor Mo Shami for his feedback and helpful advice
 - My family and friends
 - To Code Institute for their helpful and informative guidance
+
+### [Return to Table of Content](#table-of-content)
 
 
 
