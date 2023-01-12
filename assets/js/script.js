@@ -203,6 +203,6 @@ function getResult() {
   if (computerChoice === 'Rock👊' && userChoice === 'Spock🖖') {
       result = 'You Win!';
       incrementScore();
-  }
+  } 
   resultDisplay.innerHTML = result;
 }

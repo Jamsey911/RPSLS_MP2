@@ -145,8 +145,6 @@ footer {
 .return-outer {
     margin: 10px;
 }
-
-
 /* Media Queries Start Here */
 @media screen and (max-width: 950px) {
     .top-section {
