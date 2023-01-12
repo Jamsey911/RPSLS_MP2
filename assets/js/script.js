@@ -11,7 +11,6 @@ let computerChoice;
 let userNewScore = 0;
 let compNewScore = 0;
 let clear = document.querySelector("#selections");
-
 /**
  * funtion to calculate end game when 3 rounds has been won
  */
@@ -73,7 +72,6 @@ function incrementScore() {
 function incrementComputerScore() {
   document.getElementById('computer-result-score').innerText = ++compNewScore;
 }
-
 /**
  * Add Click function for Game Button Selections
  */
@@ -89,7 +87,6 @@ possibleChoices.forEach(possibleChoices => possibleChoices.addEventListener('cli
  */
 function generateComputerChoice() {
   const randomNumber = Math.floor(Math.random() * possibleChoices.length);
-
   if (randomNumber === 0) {
     computerChoice = 'Rock👊';
   }
@@ -107,7 +104,6 @@ function generateComputerChoice() {
   }
   computerChoiceDisplay.innerHTML = computerChoice;
 }
-
 /**
  * Generate Result
  */
